@@ -1,30 +1,26 @@
 <script>
 	import SparklingHighlight from '$lib/components/molecules/SparklingHighlight.svelte';
 	import Socials from '$lib/components/molecules/Socials.svelte';
-	import Image from '../atoms/Image.svelte';
+    import Image from '../atoms/Image.svelte';
 </script>
 
 <section id="about">
 	<div class="info">
-		<h2>
-			This is a catchy headline that
-			<SparklingHighlight color="secondary">sparkles!</SparklingHighlight>
-		</h2>
 		<p>
-			Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum velit voluptatibus commodi
-			autem provident quam labore, libero beatae praesentium voluptate?
+			This is The Space Outlaw's blog
 		</p>
-		<div class="socials">
-			<span>Socials:</span>
-			<Socials />
-		</div>
 	</div>
 	<div class="image">
+<!-- Bro image loadddddd plsssssssss-->
 		<Image
-			src="/images/sample-image.png"
+			src="/images/IMG_1298.jpeg"
 			alt="Sample for the static template"
 		/>
 	</div>
+<div class="socials">
+			<span>Our Socials:</span>
+			<Socials />
+		</div>
 </section>
 
 <style lang="scss">
